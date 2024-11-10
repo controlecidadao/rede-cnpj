@@ -735,4 +735,4 @@ if __name__ == '__main__':
             pyi_splash.close()
         except:
             pass
-    app.run(host='0.0.0.0',debug=True, use_reloader=True, port=porta)
+    app.run(host='0.0.0.0',debug=True, use_reloader=False, port=porta) # use_realoader estava em True. Isso fazia com que uma segunda aba do navegador fosse aberta.
